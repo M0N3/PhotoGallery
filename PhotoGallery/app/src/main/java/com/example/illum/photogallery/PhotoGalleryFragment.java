@@ -32,7 +32,7 @@ import butterknife.ButterKnife;
  * Created by illum on 5/12/2017.
  */
 
-public class PhotoGalleryFragment extends Fragment {
+public class PhotoGalleryFragment extends VisibleFragment {
     private static final String TAG = "PhotoGalleryFragment";
     private ThumbnailDownloader<PhotoHolder> mThumbnailDownloader;
     private List<GalleryItem> mItems = new ArrayList<>();
